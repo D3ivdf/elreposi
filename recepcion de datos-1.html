@@ -1,7 +1,22 @@
 <!DOCTYPE html>
 <style>
     h1{
+        position: relative;
+        left: 19cm;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    header{
+        background-color: #09A7A1;
+        color: white;
+        padding: 0.25em;
+    }
+    body{
+        background: url(https://s2.best-wallpaper.net/wallpaper/2560x1440/1607/Tropical-beach-sand-palm-trees-sea-vacation-summer_2560x1440.jpg);
+    }
+    form{
+        position: relative;
+        left: 20cm;
+        bottom: -1cm;
     }
 </style>
 <header>
@@ -18,9 +33,12 @@
         <label for="Paquete normal"> <input id="Paquete normal" type="radio"> Paquete normal</label> 
         <label for="Paquete pre-premium"> <input id="Paquete pre-premium" type="radio"> Paquete pre-premium</label>
         <label for="Paquete premium"> <input id="Paquete premium" type="radio"> Paquete premium</label><br><br>    
-        <label for="Pago por targeta"><input id="Pago por targeta" type="checkbox">Pago por targeta</label>
+        <label for="Pago por tarjeta"><input id="Pago por tarjeta" type="checkbox">Pago por tarjeta</label>
         <label for="Pago por cheque"><input id="Pago por cheque" type="checkbox">Pago por cheque</label>
-        <label for="Pago en efectivo"><input id="Pago en efectivo" type="checkbox">Pago en efectivo</label>
+        <label for="Pago en efectivo"><input id="Pago en efectivo" type="checkbox">Pago en efectivo</label><br><br>
+        <input type="text" placeholder="Numero de personas"><br><br>
+        <input type="text" placeholder="Numero de tarjeta"><br><br>
+        <button>Enviar</button>
     </form>
 
 </main>
